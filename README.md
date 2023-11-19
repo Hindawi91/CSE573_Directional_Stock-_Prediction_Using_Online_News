@@ -16,8 +16,7 @@ For each features and for each stock 6 classification models were trained:
          <li> Voting Ensemble of the previous 5 models </li>
        </ul>
 
-![cse 573 demo](https://github.com/Hindawi91/CSE573_Directional_Stock-_Prediction_Using_Online_News/assets/38744510/b0d1d34c-1a69-46b9-a0e2-9c95fec7d54b)
-
+![cse 573 demo](https://github.com/Hindawi91/CSE573_Directional_Stock-_Prediction_Using_Online_News/assets/38744510/02e14c47-af7b-4d1c-a22c-67c705f02fbf)
 
 
 ## Dataset
