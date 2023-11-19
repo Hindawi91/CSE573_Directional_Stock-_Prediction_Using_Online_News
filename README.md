@@ -1,5 +1,24 @@
 # Directional Stock Prediction using online news
-This is project built as a requirement for course CSE 573 Semantic Web Mining at ASU. The aim is to build directional stock prediction system which predict stock market price movement using online news. It is built using BERT and Bidirectional LSTM. 
+This is project built as a requirement for course CSE 573 Semantic Web Mining at ASU. The aim is to build directional stock prediction system which predict stock market price movement using online news for both Amazon and Apple.
+
+For each stock, data was processed, cleaned, and features were genereated using different methods:
+<ul> <li> bert features </li>
+            <li> word2vec features </li>
+         <li> tf-idf features </li>
+       </ul>
+
+For each features and for each stock 6 classification models were trained:
+<ul> <li> Logistic Regression </li>
+            <li> Random Forrests </li>
+         <li> Adaboost </li>
+         <li> Support Vector Machines </li>
+         <li> Knn </li>
+         <li> Voting Ensemble of the previous 5 models </li>
+       </ul>
+
+![cse 573 demo](https://github.com/Hindawi91/CSE573_Directional_Stock-_Prediction_Using_Online_News/assets/38744510/b0d1d34c-1a69-46b9-a0e2-9c95fec7d54b)
+
+
 
 ## Dataset
 The model is trained on a news corpus consisting over 80000 articles related to Amazon and Apple news. The dataset was collected between January 2018 to February 2019. The dataset also contains stock chart price of AMZN and AAPL stocks. We build a labelled dataset utilizing change in stock price at different intervals of time.
@@ -29,7 +48,7 @@ The model is trained on a news corpus consisting over 80000 articles related to 
 5. Features Extraction:
      <ul>
           <li> run "cd 2_features_extraction" to move to the folder </li>
-          <li> run the .py files to generate features for both "Amzn" and "Aapl" using different features everytime ("bert","word2vec","tf-idf") </li>
+          <li> run the .py files to generate features for both "Amzn" and "Aapl" using different features every time ("bert","word2vec","tf-idf") </li>
           <li> Once you're done, you must have 6 ".pkl" features files generated for the next step </li>
         </ul>
 6. Model Training and Evaluation:
