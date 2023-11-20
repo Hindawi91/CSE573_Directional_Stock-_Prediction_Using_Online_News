@@ -24,7 +24,7 @@ The model is trained on a news corpus consisting over 80000 articles related to 
 
 ## How to setup the project
 1. Clone the project.
-2. Open a terminal, and change directory to CODE folder. 
+2. Open a terminal, and change the directory to the project folder. 
 3. To download data, In the command line do the following:
     <ul>
       <li> run "cd ./data" to move to the data folder </li>
