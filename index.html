@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Directional Stock Market Prediction</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="header">
+    <h1><a href="index.html" id="sitetitle">CSE573 Semantic Web Mining Project</a></h1>
+  </div>
+
+  <div id="body">
+    <div id="home">
+      <h1>Directional Stock Market Prediction <span></span><br></h1>
+      <div class="content">
+        <div>
+          <label for="company">Select Company:</label>
+          <select id="company">
+            <option value="amazon">Amazon</option>
+            <option value="apple">Apple</option>
+          </select>
+
+          <label for="representation">Select Text Representation:</label>
+          <select id="representation">
+            <option value="bert">Bert</option>
+            <option value="tfidf">Tfidf</option>
+            <option value="word2vec">Word2Vec</option>
+          </select>
+
+          <button onclick="showResults()">Show Results</button>
+          <button onclick="showTopSources()">Top 10 News Sources</button>
+        </div>
+
+        <div id="results"></div>
+        <div id="topSources"></div>
+      </div>
+    </div>
+
+    <div class="sidebar">
+      <div>
+        <h2>Team Members</h2>
+        <h3>Firas Al-Hindawi</h3>
+        <h3>Redha Abu Shaheen</h3>
+        <h3>David Wang</h3>
+        <h3>Pranav Bindra</h3>
+        <h3>Maharashi Patel</h3>
+        <h3>Karthik Ravi Kumar</h3>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
